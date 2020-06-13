@@ -1,2 +1,2 @@
 # G3AN: Disentangling Appearance and Motion for Video Generation
-![Alt Text](teaser.gif | width=100)
+<img src="teaser.gif" width="48">
