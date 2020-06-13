@@ -1,1 +1,2 @@
-# g3an-project
+# G3AN: Disentangling Appearance and Motion for Video Generation
+![Alt Text](teaser.gif)
