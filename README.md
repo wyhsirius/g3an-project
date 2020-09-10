@@ -1,5 +1,5 @@
 # G3AN: Disentangling Appearance and Motion for Video Generation
-Yaohui Wang, Piotr Bilinski, Francois Bremond, and Antitza Dantcheva
+This is the official PyTorch implementation of the CVPR 2020 paper "G3AN: Disentangling Appearance and Motion for Video Generation"
 
 <img src="demo.gif" width="500">
 
