@@ -46,7 +46,7 @@ python train.py --data_path $DATASET --exp_name $EXP_NAME
 
 ## Citation
 If you find this code useful for your research, please consider citing our paper:
-```
+```bibtex
 @InProceedings{Wang_2020_CVPR,
     author = {Wang, Yaohui and Bilinski, Piotr and Bremond, Francois and Dantcheva, Antitza},
     title = {G3AN: Disentangling Appearance and Motion for Video Generation},
