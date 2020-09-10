@@ -19,18 +19,18 @@ You can download the original UvA-NEMO datest from https://www.uva-nemo.org/ and
 Download the G3AN pretrained model on UvA-NEMO from [here](https://drive.google.com/file/d/1sDkWELQHsQqg0MUR-DJsM3YpSyenTX-S/view?usp=sharing).
 
 ## Inference
-1. For sampling $NUM videos and saving them under ./demos/$EXP_NAME
+1. For sampling NUM videos and saving them under ./demos/EXP_NAME
 
 ```shell script
 python demo_random.py --model_path $MODEL_PATH --n $NUM --demo_name $EXP_NAME
 ```
 
-2. For sampling $N appearances with $M motions and saving them under ./demos/$EXP_NAME
+2. For sampling N appearances with M motions and saving them under ./demos/EXP_NAME
 ```shell script
 python demo_nxm.py --model_path $MODEL_PATH --n_za_test $N --n_zm_test $M --demo_name $EXP_NAME
 ```
 
-3. For sampling $N appearances with different video lengthes (9 different video lengthes) and saving them under ./demos/$EXP_NAME
+3. For sampling N appearances with different video lengthes (9 different video lengthes) and saving them under ./demos/EXP_NAME
 ```shell script
 python demo_multilength.py --model_path $MODEL_PATH --n_za_test $N --demo_name $EXP_NAME
 ```
