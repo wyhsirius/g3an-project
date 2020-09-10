@@ -1,4 +1,5 @@
 # G3AN: Disentangling Appearance and Motion for Video Generation
+### [Project Page](https://wyhsirius.github.io/G3AN/) | [Paper](https://arxiv.org/pdf/1912.05523.pdf)
 This is the official PyTorch implementation of the CVPR 2020 paper "G3AN: Disentangling Appearance and Motion for Video Generation"
 
 <img src="demo.gif" width="500">
