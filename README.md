@@ -55,11 +55,3 @@ If you find this code useful for your research, please consider citing our paper
     year = {2020}
 }
 ```
-
-
-
-=======
-Yaohui Wang, Piotr Bilinski, Francois Bremond, Antitza Dantcheva
-
-<img src="demo.gif" width="500">
->>>>>>> 23e1353029e2b28874fa1de195368dbce459052b
