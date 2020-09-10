@@ -10,7 +10,7 @@ This is the official PyTorch implementation of the CVPR 2020 paper "G3AN: Disent
 - cudnn 7.1
 - PyTorch 1.4+
 - scikit-video
-- tensoboard
+- tensorboard
 - moviepy
 
 ## Dataset
