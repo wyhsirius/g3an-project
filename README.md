@@ -79,4 +79,4 @@ If you find this code useful for your research, please consider citing our paper
 ```
 
 ## Acknowledgement
-Part of the evaluation code is adapted from [evan](https://github.com/raahii/evan). I moved most of the operations from CPU into GPU to accelerate the computation. We thank the authors for their inspiration and contribution to the community.
+Part of the evaluation code is adapted from [evan](https://github.com/raahii/evan). I have moved most of the operations from CPU into GPU to accelerate the computation. We thank authors for their contribution to the community.
