@@ -12,6 +12,7 @@ This is the official PyTorch implementation of the CVPR 2020 paper "G3AN: Disent
 - scikit-video
 - tensorboard
 - moviepy
+- PyAV
 
 ## Dataset
 You can download the original UvA-NEMO datest from https://www.uva-nemo.org/ and use https://github.com/1adrianb/face-alignment to crop face regions. We also provide our preprocessed version [here](https://drive.google.com/file/d/1aB7w3d1Ev9Iniui1LTuhLi7zNVK-Wxen/view?usp=sharing).
