@@ -72,7 +72,7 @@ If you find this code useful for your research, please consider citing our paper
 ```bibtex
 @InProceedings{Wang_2020_CVPR,
     author = {Wang, Yaohui and Bilinski, Piotr and Bremond, Francois and Dantcheva, Antitza},
-    title = {G3AN: Disentangling Appearance and Motion for Video Generation},
+    title = {{G3AN}: Disentangling Appearance and Motion for Video Generation},
     booktitle = {IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
     month = {June},
     year = {2020}
