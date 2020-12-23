@@ -14,7 +14,7 @@ class Generator(nn.Module):
 		self.block2 = G3(ch*8, ch*8*2, ch*8, ch*8, mode, 4, 4, 2, 2, 1, 1) # 8 x 8 x 8
 		self.block3 = G3(ch*8, ch*8*2, ch*8, ch*4, mode, 4, 4, 2, 2, 1, 1) # 16 x 16 x 16
 		self.block4 = G3(ch*4, ch*4*2, ch*4, ch*2, mode, 4, 1, 2, 1, 1, 0) # 16 x 32 x 32
-		self.block5 = G3(ch*2, ch*2*2, ch*2,   ch, mode, 4, 1, 2, 1, 1, 0) # 16 x 64 x 64
+		self.block5 = G3(ch*2, ch*2*2, ch*2,	 ch, mode, 4, 1, 2, 1, 1, 0) # 16 x 64 x 64
 
 		if self.use_attention:
 			self.fsa = FSA(ch*4)
