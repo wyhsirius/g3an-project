@@ -4,15 +4,6 @@ from .ops import G3, FSA
 import torch.nn.utils.spectral_norm as spectralnorm
 from torch.nn import init
 
-# def weights_init_normal(m):
-#	classname = m.__class__.__name__
-#	if classname.find("Conv") != -1:
-#		torch.nn.init.normal_(m.weight.data, 0.0, 0.02)
-#	elif classname.find("BatchNorm") != -1:
-#		torch.nn.init.normal_(m.weight.data, 1.0, 0.02)
-#		torch.nn.init.constant_(m.bias.data, 0.0)
-
-
 class Generator(nn.Module):
 	def __init__(self, c_a=128, c_m=10, ch=64, mode='1p2d', use_attention=True):
 		super(Generator, self).__init__()
