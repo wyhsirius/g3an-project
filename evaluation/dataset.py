@@ -27,11 +27,8 @@ class VideoDataset(Dataset):
 		video = [frame.to_image() for frame in videogen.decode(video=0)]
 		nframes = len(video)
 
-		#start = nframes // 2 - self.length
-		#video = video[start : start + self.length*2 : 2]
 		
 		start = nframes // 2 - self.length // 2
-		#print(start, start + self.length)
 		video = video[start : start + self.length]
 
 		# transform
