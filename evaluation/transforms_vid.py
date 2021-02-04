@@ -27,8 +27,8 @@ class ClipToTensor(object):
             # convert img from (H, W, C) to (C, W, H) format
             img_convert = torch.from_numpy(img).permute(2, 0, 1).contiguous()
             th_clip[:, id, :, :] = img_convert
-
-        return th_clip.float() / 255.0
+        
+        return th_clip.float()
 
 
 class ImgToTensor(object):

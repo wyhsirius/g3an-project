@@ -38,11 +38,11 @@ def get_activations(files, data_type, model, batch_size, size, length, dims, dev
 	if batch_size > len(files):
 		print(('Warning: batch size is bigger than the data size. Setting batch size to data size'))
 		batch_size = len(files)
-
+	
 	transform = torchvision.transforms.Compose([
 		transforms_vid.ClipResize((size, size)),
 		transforms_vid.ClipToTensor(),
-		transforms_vid.ClipNormalize(mean=[0.4345, 0.4051, 0.3775], std=[0.2768, 0.2713, 0.2737])]
+		transforms_vid.ClipNormalize(mean=[114.7748, 107.7354, 99.4750], std=[1, 1, 1])]
 	)
 
 	if data_type == 'video':

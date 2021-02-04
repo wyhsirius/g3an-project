@@ -17,7 +17,7 @@ def main(args):
 	print('Loading video paths...')
 
 	if args.dataset == 'uva':
-		files = glob.glob(args.data_path + '*.mp4')
+		files = glob.glob(args.data_path + '/*.mp4')
 		data_type = 'video'
 	else:
 		raise NotImplementedError
