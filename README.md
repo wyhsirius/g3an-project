@@ -52,15 +52,15 @@ python generate_videos.py --gen_path $GEN_PATH
 ```shell script
 cd evaluation
 ``` 
-Download feature extractor **resnext-101-kinetics.pth** from [here](https://drive.google.com/drive/folders/1zvl89AgFAApbH0At-gMuZSeQB_LpNP-M) to the current folder. Pre-computed UvA_NEMO dataset stats can be found in stats/uva.npz. If you would like to compute it youeself, save all the training videos in $UVA_PATH and run
+Download feature extractor **resnext-101-kinetics.pth** from [here](https://drive.google.com/drive/folders/1zvl89AgFAApbH0At-gMuZSeQB_LpNP-M) to the current folder. Pre-computed UvA_NEMO dataset stats can be found in stats/uva.npz. If you would like to compute it youeself, save all the training videos in $UVA_PATH and run (to obtain 64x64 videos, you need to specify output size when using ffmpeg),
 ```shell script
 python precalc_stats.py --data_path $UVA_PATH
 ```
-To compute FID
+To compute FID 
 ```shell script
-python fid.py $GEN_PATH stats/uva.npz
+python fid.py $GEN_PATH stats/uva_64.npz
 ```
-You can obtain FID around 86 (better than reported number on the paper) by evaluating provided model. Here I improve the original video discriminator by using a (2+1)D ConvNets instead of 3D ConvNets.
+I have provided npz file for both 64 and 128 resolutions. You can obtain FID around 60 (64x64) and 130 (128x128) by evaluating provided model. Here I improved the original video discriminator by using a (2+1)D ConvNets instead of 3D ConvNets.
 
 ## TODOs
 - [x] Unconditional Generation
