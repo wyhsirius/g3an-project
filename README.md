@@ -60,7 +60,7 @@ To compute FID
 ```shell script
 python fid.py $GEN_PATH stats/uva.npz
 ```
-You can obtain FID around 80 ~ 83 (better than reported number on the paper) by evaluating provided model. Here I improve the original video discriminator by using a (2+1)D ConvNets instead of 3D ConvNets.
+You can obtain FID around 86 (better than reported number on the paper) by evaluating provided model. Here I improve the original video discriminator by using a (2+1)D ConvNets instead of 3D ConvNets.
 
 ## TODOs
 - [x] Unconditional Generation
